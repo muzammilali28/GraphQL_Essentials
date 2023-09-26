@@ -1,0 +1,21 @@
+{
+  "name": "graphql-plus-apollo-essentials",
+  "version": "1.0.0",
+  "description": "This project covers all the essentials from getting started with graphql + plus till querring and mutation with variables and relation. Basically, this project will cover everything you need to know about GraphQL that we implement on Server Side other than the REST API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gql-server": "nodemon index.js"
+  },
+  "author": "Muzammil Ali - git ~ muzammilali28",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.9.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "graphql": "^16.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
